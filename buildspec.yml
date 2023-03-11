@@ -1,0 +1,9 @@
+phases:
+  install:
+    commands:
+      # create a new virtual environment
+      python -m venv myenv
+      # activate the virtual environment
+      source myenv/bin/activate
+      # install dependencies from requirements.txt
+      pip install -r requirements.txt
